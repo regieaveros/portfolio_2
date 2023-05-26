@@ -1,0 +1,66 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url(../public/fonts/OpenSans-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url(../public/fonts/OpenSans-SemiBold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url(../public/fonts/OpenSans-ExtraBold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+.burger {
+  background: none;
+  border: 0;
+}
+
+.burger-lines {
+  background-color: #132634 !important;
+}
+
+.burger-lines:before {
+  background-color: #132634 !important;
+}
+
+.burger-lines:after {
+  background-color: #132634 !important;
+}
+
+.burger.burger-rotate.open .burger-lines {
+  background-color: transparent !important;
+}
+
+.yarl__portal {
+  z-index: 700 !important;
+}
+
+.Toastify__toast-container.Toastify__toast-container--top-right {
+  z-index: 300;
+}
